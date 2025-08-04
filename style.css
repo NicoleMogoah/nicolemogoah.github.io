@@ -9,6 +9,9 @@
 body {
   background: #E5E5E5;
   background-image: url("https://photos.google.com/photo/AF1QipNYcNwj59pocxqoUzjzcTNNiOqkzJT4PmVS7YWB");
+  align-items: center;
+  text-align: center;
+
 }
 
 #card-front {
@@ -29,7 +32,7 @@ body {
 
 #card-front,
 #card-inside {
-  width: 50%;
+  max-width: 400px;
   -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.25), 0 0 1px rgba(0, 0, 0, 0.5);
   position: absolute;
